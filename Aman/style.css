@@ -1,0 +1,269 @@
+/* NAVBAR */
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0,0,33);
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(18,18,62);
+    position: fixed;
+    top: 0px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 1.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   color:#8326ee;
+   font-size: 1.02rem;
+   cursor: pointer;
+}
+.left{
+    font-size: 1.5rem;
+    color: #9814e4;
+}
+
+
+/* SIDEBAR */
+.sidebar{
+    position: fixed;
+    height: 95vh;
+    border-radius: 0.5rem;
+    background-color: rgb(18,18,62);
+    margin-top: 5.25rem;
+}
+.user img{
+    height: 50px;
+    border-radius: 100%;
+    margin: 1rem;
+}
+.sidebar ul li{
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 100%;
+}
+
+.sidebar li img:hover{
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+    border-radius: 100%;
+   cursor: pointer;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10rem 10rem 5rem 10rem ;
+}
+
+
+
+/* FIRST SECTION */
+.firstsection{
+    display: flex;
+   width: 100%;
+}
+
+.head > div{
+    width: 40%;
+}
+.leftsection{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.rightsection img{
+    width: 80%;
+    margin: 0 0;    
+}
+span{
+    color:#9814e4;
+}
+.media{
+    display: flex;
+}
+.media img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 100%;
+}
+.media img:hover{
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+}
+ main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 0.01rem;
+    margin: 2rem 5rem ;    
+}
+.contact{
+    height: 3rem;
+    width: 10rem;
+   
+}
+.contact a{
+    color: white;
+    font-size: 1.5rem;
+}
+/* SECOND SECTION */
+.secondsection h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #8326ee;
+}
+.secondsection .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5rem 10rem;
+}
+.secondsection .card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+}
+.secondsection .card h2{
+    font-size: 100%;
+    
+}
+
+
+/* THIRD SECTION */
+.thirdsection h1{
+    font-size: 200%;
+    text-align: center;
+    color: #8326ee;
+}
+.thirdsection .container{
+    display: flex;
+    margin:2rem 10rem;
+    background-color: rgb(18,18,62);
+}
+.thirdsection .container .left{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+.thirdsection .container .left img{
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    border: 0.1rem solid white;
+    border-radius: 100%;  
+}
+.thirdsection .container .right{
+    
+    height: 100%;
+    width: 50%;
+    padding: 3rem;
+}
+footer{
+    display: flex;
+    background-color: rgb(18,18,62);
+}
+footer .div{
+    display: flex;
+    flex-direction: column;
+   width: 20%;
+   margin: 3rem 5rem 2rem 10rem;
+}
+footer div img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 100%;
+}
+footer .link{
+    width: 20%;
+    margin: 3rem 5rem 2rem 10rem;
+}
+footer.media{
+    display: flex;
+    
+}
+footer.media img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 100%;
+}
+footer.media img:hover{
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+}
+.copy{
+    height: 40px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   padding: 10px;
+    background-color:rgb(21, 21, 77);
+}
+/* SIGNUP PAGE */
+.heading{
+    text-align: center;
+    margin: 3rem;
+    color: #9814e4;
+}
+tr{
+    height: 3rem; 
+} 
+tr input{
+    padding: 0.5rem;
+    background-color: #8326ee;
+    border-radius: 0.5rem;
+   
+}
+tr input:hover{
+    box-shadow: 0 0 10px #8326ee;
+}
+
+.signup{
+    background-color: rgb(18,18,62);
+    margin: 0 35%;
+}
+.signup:hover{
+    box-shadow: 0 0 20px rgb(18,18,62);
+}
+button{
+    background-color: #9814e4;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+}
+button:hover{
+    box-shadow: 0 0 10px #8326ee;
+}
+
+
+ 

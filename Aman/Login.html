@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: poppins, sans-serif;
+            background-color: rgb(0,0,33);
+           
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+            .login-container {
+            background-color: rgb(18,18,62);
+            color: #ffffff;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            width: 20%;
+            height: 50%;
+            text-align: center;
+            ;
+        }
+        .login-container:hover{
+            box-shadow: 0 0 20px rgb(18,18,62);
+        }
+
+        .login-container h1 {
+            margin-bottom: 1.5rem;
+            color: #9814e4;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+            border: 1px solid rgb(245, 240, 240);
+            border-radius: 4px;
+            background-color: #8326ee;
+        }
+        .form-group input:hover{
+            box-shadow: 0 0 10px #8326ee;
+        }
+
+        .form-group a {
+            background-color: #9814e4;
+            color: #ffffff;
+            padding: 1rem;
+            width: 3rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .form-group a:hover{
+            box-shadow: 0 0 10px #8326ee;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Enter user name:">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your passward :">
+            </div>
+            <div class="form-group">
+                <a href="index.html">Login</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    
+</head>
+<style>
+   /* CERTIFICATE.HTML */
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0,0,33);
+        font-family: "Poppins", sans-serif;
+    }
+    .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(18,18,62);
+    border: 1px solid rgb(143, 39, 228);
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+}
+.container .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    border: 1px solid rgb(143, 39, 228);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.container .cards:hover{
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+}
+.container .cards img{
+    height: 80%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.container .cards h3{
+    text-align: center;
+    color: #8326ee;
+
+}
+.container .cards button{
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10rem;
+    background-color: rgb(157, 46, 231);
+    color: white;
+    font-size: large;
+    border: none;
+    margin: 1rem;
+    opacity: 0.8;
+}
+.container .cards button:hover{
+    opacity: 1;
+    box-shadow: 0 0 20px rgb(143, 39, 228);
+    cursor: pointer;
+}
+body header h1{
+    text-align: center;
+    margin: 3rem;
+    color: #8326ee;
+    font-size: 5rem;
+}
+</style>
+<body>
+    <header>
+        <h1>Certificate</h1>
+    </header>
+    <div class="container"> 
+        <div class="cards">
+            <img src="./images/DSA.PNG">
+            <h3>Data Structure & ALgorithems</h3>
+            <button id="dwd" onclick="dsa()">Download</button>
+        </div>
+        <div class="cards">
+            <img src="./images/Basics of python.PNG">
+            <h3>Python</h3>
+            <button id="dwd" onclick="python()">Download</button>
+        </div>
+        <div class="cards">
+            <img src="./images/cpp.jpg">
+            <h3>C++ language</h3>
+            <button id="dwd" onclick="cpp()">Download</button>
+        </div>
+        <div class="cards">
+            <img src="./images/AI certificate.jpg">
+            <h3>Artificial intelligence </h3>
+            <button id="dwd" onclick="ai()">Download</button>
+        </div>
+        <div class="cards">
+            <img src="./images/Generative AI.PNG">
+            <h3>Generative AI</h3>
+            <button id="dwd" onclick="generative()">Download</button>
+        </div>   
+    </div>
+    <script>
+        // CERTIFICATE
+        function dsa()
+        {
+            window.location='./images/DSA.PNG'
+        }
+        function cpp()
+        {
+            window.location='./images/cpp.jpg'
+        }
+        function generative()
+        {
+            window.location='./images/Generative AI.PNG'
+        }
+        function python()
+        {
+            window.location='./images/Basics of python.PNG'
+        }
+        function ai()
+        {
+            window.location='./images/AI certificate.jpg'
+        }
+    </script>
+</body>
+</html>
